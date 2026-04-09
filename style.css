@@ -1,0 +1,91 @@
+body {
+    background-size: cover;
+    background-repeat: no-repeat;
+    transition: 1s;
+    background: url(assets/siringa.jpg);
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    background-color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+nav {
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: relative;
+    background-color: #ff6d6d;
+}
+
+h3 {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 32px;
+    color: #ffffff;
+    text-align: center;
+}
+
+main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 20px;
+}
+
+.bonito{
+    color: #880707;
+    background-color: rgb(255, 255, 255);
+    width: 700px;
+    border-color: #000000;
+    border: 10px;
+    border-radius: 10px;
+    
+}
+
+#formDoacao{
+    background-color: white;
+    padding: 25px;
+    border-radius: 15px;
+    width: 420px;
+    box-shadow: 0px 0px 15px rgba(0,0,0,0.1);
+    font-size: 16px;
+}
+
+input, select{
+    width: 101%;
+    padding: 8px;
+    margin: 8px 0 15px 0;
+    border-radius: 8px;
+    border: 1px solid #ccc;
+    outline: none;
+}
+
+
+
+input[type="radio"] {
+    width: auto;
+    margin-right: 5px;
+}
+
+button {
+    margin-bottom: 10px;
+    height: 40px;
+    width: 100%;
+    padding: 10px;
+    background-color: #db4d4d;
+    color: white;
+    border: none;
+    border-radius: 10px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: #ff0000;
+}
+
+#icon{
+    margin-bottom: 100px;
+}
